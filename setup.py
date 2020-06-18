@@ -23,7 +23,12 @@ with open('src/__init__.py') as f:
 # package abstract dependencies
 REQUIREMENTS = [
     'pip >= 18.1',
-    'pytest >= 5.3.3']
+    'numpy >= 1.16.0',
+    'scikit-learn >= 0.20.2',
+    'scikit-image >= 0.14.2',
+    'scipy >= 1.2.0',
+    'matplotlib >= 3.0.2',
+    'pandas >= 0.24.0']
 
 # long description of the package
 with open("README.md", "r") as f:
