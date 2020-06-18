@@ -23,3 +23,13 @@ def myfunction_bis(x):
         xx = None
 
     return xx
+
+
+def myfunction_ter(x):
+    """Multiply the value by 3."""
+    if isinstance(x, int):
+        xx = 3 * x
+    else:
+        xx = None
+
+    return xx
