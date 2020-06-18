@@ -2,6 +2,7 @@ comment: false
 
 ignore:
   - "setup.py"
+  - "test_*.py"
 
 coverage:
   status:
